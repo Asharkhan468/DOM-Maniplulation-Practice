@@ -40,7 +40,7 @@
 
 
 
-const parent = document.querySelector(".parent");
+// const parent = document.querySelector(".parent");
 
 // console.log(parent);
 // console.log(parent.children[4].innerHTML);
@@ -62,4 +62,111 @@ const parent = document.querySelector(".parent");
 // console.log(parent.childNodes);
 
 
+// const para = document.createElement("p");
 
+// para.innerHTML="Hello world!"
+
+// para.appendChild(para);
+
+
+// let data = document.createTextNode("chai aur code");
+
+// console.log(data);
+
+// para.appendChild(data);
+
+// document.body.appendChild(para);
+
+
+
+// const heading = document.createElement('h1');
+
+// let text = document.createTextNode("Hello Bhai kesy ho!");
+
+// heading.appendChild(text);
+
+// document.body.appendChild(heading);
+
+
+
+
+
+
+// const doc = document.createElement("h2");
+// doc.setAttribute("class" , "jack");
+// let text = document.createTextNode("Hello bro kiya hal chal?");
+// doc.appendChild(text);
+// document.body.appendChild(doc);
+
+
+// function addLanguage(languageName){
+    
+// let div = document.querySelector(".language");
+
+// let li = document.createElement("div");
+
+// let text = document.createTextNode(`${languageName}`);
+
+// li.appendChild(text);
+
+// document.body.appendChild(li);
+// }
+
+// addLanguage("C++")
+// addLanguage("Ruby")
+// addLanguage("C#")
+
+
+// console.log(div);
+
+
+
+// function addLanguage(languageName){
+    
+//     const li = document.createElement("li");
+//     li.appendChild(document.createTextNode(`${languageName}`));
+//     document.querySelector(".language").appendChild(li);
+
+// }
+
+
+// function editLanguage(editLanguage){
+
+//     const edit = document.querySelector("li:nth-child(1)");
+//     const newLi = document.createElement('li');
+//     newLi.innerHTML=`${editLanguage}`;
+//     edit.replaceWith(newLi);
+
+// }
+
+
+// function deleteLanguage(){
+//     let langName= document.querySelector("li:last-child");
+//     langName.remove()
+// }
+
+// editLanguage("Rabbit");
+// deleteLanguage()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+let parent = document.querySelector(".parent");
+let li = document.createElement("li").createtextnodes;
